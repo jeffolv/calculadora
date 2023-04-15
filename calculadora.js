@@ -56,9 +56,7 @@ function incluirDigito(digito) {
         limpar();
         n1 = digito;
         mostrarNoDisplay(n1);
-        return; // coloca o 'return' pra se entrar dentro dessa condição, náo continuar executando o código abaixo.
-    }
-    if (operacao !== null) {
+    } else if (operacao !== null) {
         n2 += digito;
         mostrarNoDisplay(n2);
     } else {
